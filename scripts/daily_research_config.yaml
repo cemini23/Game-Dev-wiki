@@ -17,17 +17,26 @@ active_topics:
   - "Godot 4 — RTS, grid building, isometric 2D, pathfinding tutorials"
   - "Castle sim / Stronghold-like design — economy, siege, wall building postmortems"
   - "Indie RTS scope — vertical slice discipline, solo dev timelines"
-  - "Agent-assisted game dev — multi-agent codegen, Godot + LLM workflows"
+  - "Agent-assisted game dev — Claude Code, Cursor, multi-agent harness, Godot MCP"
+  - "AI game dev automation — playtesting, CI, Stagehand, verification gates"
   - "RTS networking — lockstep, deterministic simulation (research only until slice ships)"
   - "Game art pipeline — isometric tiles, sprite sheets (@image-gen-wiki cross-ref)"
 
 paper_queries:
-  - cluster: rts-ai-paper
-    query: "research paper real-time strategy game AI pathfinding unit coordination"
+  - cluster: rts-flow-field-game
+    query: "flow field pathfinding real-time strategy game crowd Emerson Game AI Pro"
     category: research paper
 
-  - cluster: procedural-building-paper
-    query: "research paper procedural building placement simulation game"
+  - cluster: rts-influence-maps
+    query: "influence maps potential fields real-time strategy game micro arxiv"
+    category: research paper
+
+  - cluster: game-navmesh-dynamic
+    query: "navigation mesh dynamic obstacles video game pathfinding arxiv OR acm"
+    category: research paper
+
+  - cluster: lockstep-deterministic
+    query: "deterministic lockstep networked game simulation arxiv"
     category: research paper
 
 queries:
@@ -40,7 +49,15 @@ queries:
     category: news
 
   - cluster: agent-game-dev
-    query: 'LLM agent game development Godot OR multi-agent code generation indie game'
+    query: 'LLM agent game development Claude Code Cursor Godot MCP multi-agent shipped indie'
+    category: news
+
+  - cluster: llm-npc-game
+    query: "LLM NPC dialogue game design guardrails on-device SLM GDC 2025"
+    category: news
+
+  - cluster: agentic-pcg
+    query: "agentic procedural content generation tool-using LLM level design game"
     category: news
 
   - cluster: godot-building-kit

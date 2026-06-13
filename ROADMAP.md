@@ -49,10 +49,10 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-0 audit Sods2/godot-mcp → **CONDITIONAL-GO** W2 alt
 - [x] Phase-0 audit godot-stagehand + godot-ai-playtest → **CONDITIONAL-GO** W2
 - [x] Phase-0 audit Claude-Code-Game-Studios → **STEAL-FROM** (patterns only)
-- [ ] Port CCGS P0 skills checklist into `briefs/WORKFLOW.md` at W2 kickoff
-- [ ] Evaluate godot-stagehand for castle-sim CI smoke tests
-- [ ] Ingest GDC Vault transcripts (K&C, Total War siege) when slice needs them
-- [ ] Shaggydev / papierkorp Godot RTS devlogs as sources
+- [x] Port CCGS P0 skills checklist into `briefs/WORKFLOW.md` at W2 kickoff
+- [x] Evaluate godot-stagehand for castle-sim CI smoke tests → research in `wiki/concepts/godot-stagehand-ci-smoke-plan.md`
+- [x] Ingest GDC Vault transcripts (K&C, Total War siege) — K&C summary deepened; TW siege ingested from GDC blurb + forum recap
+- [x] Shaggydev / papierkorp Godot RTS devlogs as sources
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 
 ---
@@ -68,6 +68,11 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 ---
 
 ## Done log
+
+### 2026-06-13 — W4 devlog + GDC + harness workflow research
+
+- Shaggydev + papierkorp pathfinding devlogs; TW siege GDC shelf; stagehand CI plan
+- `briefs/WORKFLOW.md` (local) for W2 Codex stories
 
 ### 2026-06-13 — W1 complete + Stronghold research
 

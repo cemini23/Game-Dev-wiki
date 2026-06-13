@@ -1,0 +1,53 @@
+# =============================================================================
+# Game Dev Wiki — .gitignore
+# =============================================================================
+# Tracked: CLAUDE.md, LESSONS.md, ROADMAP.md, wiki/, scripts/, prompts/,
+#          game-projects/README.md (stub only), .gitignore, .env.example, …
+# Untracked: raw sources, briefs, .env, game code repos, OS cruft
+# =============================================================================
+
+# --- Raw sources (large, often copyrighted; live local only) -----------------
+research to be indexed/*
+!research to be indexed/.gitkeep
+raw-sources/*
+!raw-sources/.gitkeep
+
+# --- Outputs staged for distribution -----------------------------------------
+briefs/*
+!briefs/.gitkeep
+
+# --- Game implementation (separate repos; wiki documents design only) --------
+game-projects/*
+!game-projects/README.md
+
+# --- Claude Code per-project state -------------------------------------------
+.claude/
+
+claude_desktop_config.json
+hot.md
+.env
+
+# --- macOS / editor cruft ----------------------------------------------------
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.obsidian/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- Temp scratch ------------------------------------------------------------
+/tmp_*.txt
+/tmp_*.md
+*.tmp
+.scratch/
+.playwright-mcp/

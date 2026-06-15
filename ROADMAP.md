@@ -25,7 +25,7 @@ Build a **playable castle-sim vertical slice** (Stronghold-inspired, 2D isometri
 
 ### W2 — Agent harness pilot (after slice spec locked)
 
-**Status:** Ready — run on pathfinding spike in `castle-sim`
+**Status:** In progress — M1 PROCEED; execute `briefs/W2-harness-kickoff.md`
 
 - Planner: `claude-opus-4-8-thinking-high` (Fable slot when available)
 - Executor: `gpt-5.3-codex` swarm per subsystem
@@ -35,6 +35,18 @@ Build a **playable castle-sim vertical slice** (Stronghold-inspired, 2D isometri
 ### W3 — Art pipeline (parallel, low priority)
 
 Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline-v0-requirements.md` stub in place.
+
+### W5 — Stronghold 2 clone research (operator north star)
+
+**Status:** Active — mechanics mapped; building/unit deep-read pending
+
+- [x] Operator vision + legal boundary documented
+- [x] SH2 systems inventory (honour, crime, kingmaker, popularity, modes)
+- [x] GDD phase ladder in `briefs/GDD-sh2-personal-clone.md`
+- [ ] Operator playtest notes — SH2 Steam Edition side-by-side
+- [ ] Ingest SH2 Heaven per-building + military unit pages
+- [ ] Decide **D4** fork: 2D mechanics (A) vs 3D rebuild (B) vs 2.5D (C) → **B locked 2026-06-13**
+- [ ] **M0.3D architect spike** — `briefs/story-005-3d-architect-spike.md`
 
 ### W4 — Ongoing research ingest
 
@@ -53,7 +65,10 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Evaluate godot-stagehand for castle-sim CI smoke tests → research in `wiki/concepts/godot-stagehand-ci-smoke-plan.md`
 - [x] Ingest GDC Vault transcripts (K&C, Total War siege) — K&C summary deepened; TW siege ingested from GDC blurb + forum recap
 - [x] Shaggydev / papierkorp Godot RTS devlogs as sources
+- [x] Tool Evaluation cross-wiki batch (56 targets, docx) → concepts + 4 entities + routing stubs
+- [x] Phase-0 audit SerpentAI, Airtest, UCP2 + W2 briefs (story-003/004, harness kickoff)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
+- [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
 ---
 
@@ -64,6 +79,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 | D1 | 2D isometric vs simplified 3D | **2D isometric** (Stronghold 1 vibe, lower art cost) |
 | D2 | Real-time MP vs hot-seat/LAN first | **Hot-seat / solo** until slice playable |
 | D3 | `castle-sim` repo public? | **Private** until vertical slice demo |
+| D4 | SH2 clone presentation fork | **Fork B — Godot 3D** (2026-06-13). Spike: @concepts/godot-3d-sh2-architect-spike-plan.md |
 
 ---
 

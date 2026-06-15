@@ -18,7 +18,7 @@ The wiki is a librarian that **manages, curates, and applies** that knowledge:
 - **Curate** — interlinked pages on concepts, engines, tools, games (reference titles), and harness patterns
 - **Apply** — route findings to `briefs/` and future `game-projects/` repos (code stays out of this public wiki)
 
-Laptop-first workspace. Sync `wiki/` to `cemini-librarian` when operator enables federation RAG (see `@osint-wiki/concepts/librarian-server-architecture.md`).
+Laptop-first workspace. Raw sources archive to **`cemini-egress-fi:/opt/cemini-bulk/research/game-dev/`** via OSINT `archive_raw_to_egress.sh`. Librarian rsync **decommissioned 2026-06** (see `@osint-wiki/meta/librarian-decommission-2026-06-14.md`).
 
 ## Scope boundary — vs sibling wikis
 
@@ -36,7 +36,7 @@ Laptop-first workspace. Sync `wiki/` to `cemini-librarian` when operator enables
 
 ## Architecture — three layers
 
-1. **Raw sources** — immutable. `raw-sources/` (gitignored) or `cemini-librarian:/opt/cemini-bulk/research/`
+1. **Raw sources** — immutable. Canonical archive: `cemini-egress-fi:/opt/cemini-bulk/research/game-dev/` via OSINT `archive_raw_to_egress.sh`
 2. **The wiki** — LLM-written, human-read. `wiki/`
 3. **The schema** — this file
 
@@ -84,7 +84,7 @@ Claim tags: `[CONFIRMED]`, `[TENTATIVE]`, `[NEEDS VERIFICATION YYYY-MM-DD]`, `[R
 4. Cross-wiki routing check → `python3 scripts/cross_wiki_route.py` from OSINT if needed
 5. Create `wiki/sources/<slug>.md`; update concepts/entities; bidirectional `related:`
 6. Update `wiki/index.md`, append `wiki/log.md`
-7. Large PDFs → librarian bulk; `python3 scripts/wiki_lint.py`
+7. Archive large PDFs: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id game-dev "<file>"`; `python3 scripts/wiki_lint.py`
 8. Bump `ROADMAP.md` when milestone shifts
 
 ### Phase-0 (engines/tools)
@@ -115,11 +115,10 @@ Read `wiki/index.md` → follow `@relations`. File synthesis back to wiki if val
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Public | Minimal overlap |
 | `3d-printing-wiki` | `../3D printing/wiki/` | Public | Physical props only |
 
-### Librarian sync
+### Raw archive (federation)
 
 ```bash
-rsync -avz "/Users/claudiobarone/Desktop/projects/Game Dev wiki/wiki/" \
-  cemini-librarian:/opt/cemini-wiki/game-dev-wiki/wiki/
+bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id game-dev "research to be indexed/<file>"
 ```
 
-Federation sync also runs from OSINT `scripts/sync_wiki_to_librarian.sh`.
+Wiki canon stays on laptop git — no kb-server sync.

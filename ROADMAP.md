@@ -67,6 +67,8 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Shaggydev / papierkorp Godot RTS devlogs as sources
 - [x] Tool Evaluation cross-wiki batch (56 targets, docx) → concepts + 4 entities + routing stubs
 - [x] Phase-0 audit SerpentAI, Airtest, UCP2 + W2 briefs (story-003/004, harness kickoff)
+- [x] Phase-0 audit SH2 AnalyseHub, MP-AI patch, GameDev-Resources (2026-06-16)
+- [x] Inbox arXiv reject batch triaged + archived to egress (2026-06-16)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

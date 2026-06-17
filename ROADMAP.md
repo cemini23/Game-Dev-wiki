@@ -25,7 +25,7 @@ Build a **playable castle-sim vertical slice** (Stronghold-inspired, 2D isometri
 
 ### W2 — Agent harness pilot (after slice spec locked)
 
-**Status:** In progress — M1 PROCEED; execute `briefs/W2-harness-kickoff.md`
+**Status:** Executed through story-029 — next: story-030 playtest parity + optional MCP expand
 
 - Planner: `claude-opus-4-8-thinking-high` (Fable slot when available)
 - Executor: `gpt-5.3-codex` swarm per subsystem
@@ -43,10 +43,10 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Operator vision + legal boundary documented
 - [x] SH2 systems inventory (honour, crime, kingmaker, popularity, modes)
 - [x] GDD phase ladder in `briefs/GDD-sh2-personal-clone.md`
-- [ ] Operator playtest notes — SH2 Steam Edition side-by-side
+- [ ] Operator playtest notes — SH2 Steam Edition side-by-side → `briefs/story-030-sh2-playtest-parity.md`
 - [ ] Ingest SH2 Heaven per-building + military unit pages
-- [ ] Decide **D4** fork: 2D mechanics (A) vs 3D rebuild (B) vs 2.5D (C) → **B locked 2026-06-13**
-- [ ] **M0.3D architect spike** — `briefs/story-005-3d-architect-spike.md`
+- [x] Decide **D4** fork: 2D mechanics (A) vs 3D rebuild (B) vs 2.5D (C) → **B locked 2026-06-13**
+- [x] **M0.3D architect spike** — `briefs/story-005-3d-architect-spike.md` — PROCEED + operator perf PASS (story-029)
 
 ### W4 — Ongoing research ingest
 
@@ -69,6 +69,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-0 audit SerpentAI, Airtest, UCP2 + W2 briefs (story-003/004, harness kickoff)
 - [x] Phase-0 audit SH2 AnalyseHub, MP-AI patch, GameDev-Resources (2026-06-16)
 - [x] Inbox arXiv reject batch triaged + archived to egress (2026-06-16)
+- [x] Inbox re-drop triage (2026-06-17) — 5 PDFs re-archived, no new concepts
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

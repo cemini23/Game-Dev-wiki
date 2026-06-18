@@ -43,12 +43,12 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Operator vision + legal boundary documented
 - [x] SH2 systems inventory (honour, crime, kingmaker, popularity, modes)
 - [x] GDD phase ladder in `briefs/GDD-sh2-personal-clone.md`
-- [ ] Operator playtest notes — **closed YouTube path** → `briefs/story-030-sh2-playtest-parity.md`
+- [x] Operator playtest notes — **closed YouTube path** → `briefs/story-030-sh2-playtest-parity.md`
 - [x] Deep SH2 research batch — Exa + Heaven + YouTube dev interviews → @sources/sh2-exa-youtube-deep-research-2026-06-17.md
 - [x] Kingmaker strategy, siege warfare, estates concept pages
 - [x] SH2 Heaven military units + campaign walkthrough follow-up (2026-06-17)
 - [x] SH2 second pass — PoW roster, castle structures, Kingmaker ranks, Nation/Fandom AI lords (2026-06-18)
-- [ ] Ingest SH2 Heaven per-industry building stat pages (civilian/farm partial)
+- [x] Ingest SH2 Heaven per-industry building stat pages (civilian/farm/industry/cs/military1 — 2026-06-18)
 - [x] Production building cost tables → @concepts/stronghold-2-production-buildings.md (2026-06-18)
 - [x] LordProfile.json stub in castle-sim → `data/sh2/lord_profiles.json`
 - [x] SH2 mod ecosystem scan (ModDB/Nexus/YouTube/GitHub) → @concepts/stronghold-2-mod-ecosystem-shelf.md (2026-06-18)
@@ -77,7 +77,8 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-0 audit SerpentAI, Airtest, UCP2 + W2 briefs (story-003/004, harness kickoff)
 - [x] Phase-0 audit SH2 AnalyseHub, MP-AI patch, GameDev-Resources (2026-06-16)
 - [x] Inbox arXiv reject batch triaged + archived to egress (2026-06-16)
-- [x] Inbox re-drop triage (2026-06-17) — 5 PDFs re-archived, no new concepts
+- [x] Phase-0 audit sh2_mp_ai_enabler + Community Lord Editor (2026-06-18)
+- [x] Inbox arXiv reject batch triaged + archived (2026-06-18 digest re-drop)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

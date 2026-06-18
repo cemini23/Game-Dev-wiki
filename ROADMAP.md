@@ -43,8 +43,16 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Operator vision + legal boundary documented
 - [x] SH2 systems inventory (honour, crime, kingmaker, popularity, modes)
 - [x] GDD phase ladder in `briefs/GDD-sh2-personal-clone.md`
-- [ ] Operator playtest notes — SH2 Steam Edition side-by-side → `briefs/story-030-sh2-playtest-parity.md`
-- [ ] Ingest SH2 Heaven per-building + military unit pages
+- [ ] Operator playtest notes — **closed YouTube path** → `briefs/story-030-sh2-playtest-parity.md`
+- [x] Deep SH2 research batch — Exa + Heaven + YouTube dev interviews → @sources/sh2-exa-youtube-deep-research-2026-06-17.md
+- [x] Kingmaker strategy, siege warfare, estates concept pages
+- [x] SH2 Heaven military units + campaign walkthrough follow-up (2026-06-17)
+- [x] SH2 second pass — PoW roster, castle structures, Kingmaker ranks, Nation/Fandom AI lords (2026-06-18)
+- [ ] Ingest SH2 Heaven per-industry building stat pages (civilian/farm partial)
+- [x] Production building cost tables → @concepts/stronghold-2-production-buildings.md (2026-06-18)
+- [x] LordProfile.json stub in castle-sim → `data/sh2/lord_profiles.json`
+- [x] SH2 mod ecosystem scan (ModDB/Nexus/YouTube/GitHub) → @concepts/stronghold-2-mod-ecosystem-shelf.md (2026-06-18)
+- [x] Visual QoL presets + Nevikov balance sheet → @concepts/stronghold-2-visual-qol-presets.md, `balance_presets.json`, `graphics_presets.json` (2026-06-18)
 - [x] Decide **D4** fork: 2D mechanics (A) vs 3D rebuild (B) vs 2.5D (C) → **B locked 2026-06-13**
 - [x] **M0.3D architect spike** — `briefs/story-005-3d-architect-spike.md` — PROCEED + operator perf PASS (story-029)
 

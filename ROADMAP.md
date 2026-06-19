@@ -38,7 +38,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 
 ### W5 — Stronghold 2 clone research (operator north star)
 
-**Status:** Active — mechanics mapped; building/unit deep-read pending
+**Status:** Mechanics mapped — **implementation phase** (Phase B+); Heaven deep-read queue closed 2026-06-19
 
 - [x] Operator vision + legal boundary documented
 - [x] SH2 systems inventory (honour, crime, kingmaker, popularity, modes)
@@ -54,7 +54,8 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] SH2 mod ecosystem scan (ModDB/Nexus/YouTube/GitHub) → @concepts/stronghold-2-mod-ecosystem-shelf.md (2026-06-18)
 - [x] Franchise best-of shelf — cross-title steal matrix for SH2 baseline clone (2026-06-18)
 - [x] Decide **D4** fork: 2D mechanics (A) vs 3D rebuild (B) vs 2.5D (C) → **B locked 2026-06-13**
-- [x] **M0.3D architect spike** — `briefs/story-005-3d-architect-spike.md` — PROCEED + operator perf PASS (story-029)
+- [x] **Story-033** Kingmaker YouTube watchlist — @sources/sh2-kingmaker-youtube-watchlist-2026-06-19.md
+- [x] Heaven resources + luxury/feast deep-read — @sources/sh2-heaven-resources-luxury-deep-read-2026-06-19.md
 
 ### W4 — Ongoing research ingest
 

@@ -85,6 +85,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv reject batch triaged + archived (2026-06-20 digest; EA DRL ingest; Trainee-to-Trainer → ccc defer)
 - [x] Phase-0 audit CrusaderAIManager + Monsterfisch Conquest AIV (2026-06-20)
 - [x] Inbox arXiv reject batch triaged + archived (2026-06-21 re-drop; GameDevBench + Ziva Phase-0)
+- [x] Inbox arXiv reject batch triaged + archived (2026-06-22 re-drop; vav_labs AStarGrid2D gotchas)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

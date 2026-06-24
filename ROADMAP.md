@@ -20,7 +20,7 @@ Build a **playable castle-sim vertical slice** (Stronghold-inspired, 2D isometri
 - [x] Godot 4 Phase-0 deep-read + GO/NO-GO on entity page → **CONDITIONAL-GO**
 - [x] Ingest Stronghold franchise research (HD manual + Wikipedia + systems inventory)
 - [x] Lock vertical slice v0 acceptance criteria (spike gate + playtest script)
-- [x] Scaffold `castle-sim` implementation repo → `/Users/claudiobarone/Desktop/projects/castle-sim/`
+- [x] Scaffold `castle-sim` implementation repo → `/Users/claudiobarone/Projects/castle-sim/`
 - [x] Sibling wiki inventory (ccc, image-gen, cybersec cross-links)
 
 ### W2 — Agent harness pilot (after slice spec locked)
@@ -87,6 +87,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv reject batch triaged + archived (2026-06-21 re-drop; GameDevBench + Ziva Phase-0)
 - [x] Inbox arXiv reject batch triaged + archived (2026-06-22 re-drop; vav_labs AStarGrid2D gotchas)
 - [x] Inbox arXiv reject batch triaged + archived (2026-06-23 re-drop; GDQuest + RTS YouTube shelf)
+- [x] Inbox arXiv reject batch triaged + archived (2026-06-24 re-drop; Cooperative-ORCA MAPF ingest + SH4 demo news)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

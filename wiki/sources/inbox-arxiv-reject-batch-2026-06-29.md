@@ -1,39 +1,40 @@
 ---
-title: Inbox arXiv reject batch — 2026-06-28 (digest re-drop)
+title: Inbox arXiv reject batch — 2026-06-29 (digest re-drop + 2 new mis-routes)
 type: source
 tags: [source, triage, reject, arxiv]
 keywords: [arxiv, triage, reject, digest, re-drop]
 related:
-  - sources/inbox-arxiv-reject-batch-2026-06-29.md
+  - sources/inbox-arxiv-reject-batch-2026-06-28.md
   - sources/inbox-arxiv-reject-batch-2026-06-27.md
-  - sources/inbox-arxiv-reject-batch-2026-06-26.md
-  - sources/devto-claude-code-godot-skeleton-implementation-2026-06-28.md
+  - sources/unreal-engine-58-mcp-shelf-2026-06-24.md
+  - sources/hero-rl-llm-npc-springer-2026-06-26.md
+  - concepts/game-ai-rl-augmentation-shelf.md
   - meta/cross-wiki-routing.md
   - concepts/game-dev-wiki-scope.md
 read_status: read
 source_type: operator-triage
 maturity: validated
-created: 2026-06-28
-updated: 2026-06-28
+created: 2026-06-29
+updated: 2026-06-29
 ---
 
 ## Raw Concept
 
-Five arXiv PDFs from `2026-06-28-daily.md`. **All reject/re-defer** — full re-drop set from prior batches.
+Five arXiv PDFs from `2026-06-29-daily.md`. **All reject** — three re-drops, two new out-of-scope mis-routes from digest queries.
 
 ## Narrative
 
 | arXiv ID | Title (short) | Verdict | Route |
 |----------|---------------|---------|-------|
-| 2606.22488 | SCOPE symbolic world planning | **Reject (re-drop)** | Embodied VLM + classical planner |
-| 2606.23105 | CaR video world models | **Reject (re-drop)** | Video generation; GitHub Orange-3DV-Team/CaR out of scope |
 | 2606.24003 | DissProve protocol verification | **Reject (re-drop)** | Formal distributed-protocol verification |
 | 2606.24037 | Morality Game multiplayer platform | **Reject (re-drop)** | Behavioral economics research hub |
 | 2606.24203 | V2X intent-sharing maneuvers | **Reject (re-drop)** | Autonomous-vehicle coordination |
+| 2606.24099 | Academic influence of algorithms (biblio) | **Reject (new)** | Scientometrics / co-occurrence networks |
+| 2606.26397 | Pareto-optimal multi-objective RL synthesis | **Reject (new)** | Generic MORL theory → @concepts/game-ai-rl-augmentation-shelf.md defer only |
 
 **Digest dupes skipped:** 2606.22757 (ingested).
 
-**Parallel ingest (news):** @sources/devto-claude-code-godot-skeleton-implementation-2026-06-28.md; @sources/krafton-pubg-ally-nvidia-ace-2026-06-25.md (industry NPC shelf).
+**Parallel ingest (news):** @sources/unreal-engine-58-mcp-shelf-2026-06-24.md; @sources/hero-rl-llm-npc-springer-2026-06-26.md; PEST-RTS devlog row on @sources/godot-rts-rpg-youtube-watchlist-2026-06-23.md.
 
 **Action:** Archive all PDFs to egress; clear inbox.
 

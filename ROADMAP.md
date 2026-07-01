@@ -96,6 +96,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv reject batch triaged + archived (2026-06-29 re-drop; UE 5.8 MCP shelf + HeRoN research)
 - [x] Inbox arXiv batch triaged + archived (2026-06-30; StarCraft HRL ingest + PCGODOT Phase-0)
 - [x] Phase-0 audit PCGODOT → **CONDITIONAL-GO** Tier 2+ PCG
+- [x] Inbox arXiv reject batch triaged + archived (2026-07-01 re-drop; SH4 press + ProtocolBench defer)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

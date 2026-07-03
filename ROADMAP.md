@@ -98,6 +98,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-0 audit PCGODOT → **CONDITIONAL-GO** Tier 2+ PCG
 - [x] Inbox arXiv reject batch triaged + archived (2026-07-01 re-drop; SH4 press + ProtocolBench defer)
 - [x] Inbox arXiv batch triaged + archived (2026-07-02; VR feedback ingest + quant reject)
+- [x] Inbox arXiv reject batch triaged + archived (2026-07-03; Godot upstream AI policy)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

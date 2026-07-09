@@ -103,6 +103,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged + archived (2026-07-05; SAGA CivRealm strategy agents ingest + AV re-drop)
 - [x] Inbox arXiv batch triaged + archived (2026-07-07; 5 rejects — arXiv-API fallback mis-route AV/graphics/quant; empty 07-06 sweep)
 - [x] Inbox arXiv batch triaged + archived (2026-07-08; 5 rejects — arXiv-API fallback day 2; look-ahead re-drop)
+- [x] Inbox arXiv batch triaged + archived (2026-07-09; MIRA MP world-model ingest + 4 rejects; Phaser MCP news)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

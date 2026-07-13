@@ -107,6 +107,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged + archived (2026-07-10; 3 rejects/re-drops; Godot RC + SH4 review + C&C port news)
 - [x] Inbox arXiv batch triaged + archived (2026-07-11; 3 rejects; GaP re-drop ×3; Ziva GPT-5.6 benchmark)
 - [x] Inbox arXiv batch triaged + archived (2026-07-12; 5 rejects/re-drops; UGenLah Unity PCG news)
+- [x] Inbox arXiv batch triaged + archived (2026-07-13; 5 rejects/re-drops; grid placement + invasion design news)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

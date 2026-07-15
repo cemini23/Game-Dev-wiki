@@ -1,15 +1,21 @@
 loop:
-  recency_window_days: 7
+  recency_window_days: 14
   max_results_per_query: 3
 fetch:
   enabled: true
   max_downloads: 5
   fetch_likely: false
-  max_results_per_paper_query: 5
+  max_results_per_paper_query: 3
 arxiv_fallback:
   enabled: true
   request_interval_seconds: 3
-  max_terms_per_query: 6
+  max_terms_per_query: 4
+exa:
+  news_enabled: false
+  paper_mode: arxiv-only
+  include_domains:
+  - arxiv.org
+  search_type: auto
 active_topics:
 - Godot 4 — RTS, grid building, isometric 2D, pathfinding tutorials
 - Castle sim / Stronghold-like design — economy, siege, wall building postmortems
@@ -22,26 +28,29 @@ paper_queries:
 - cluster: rts-flow-field-game
   query: flow field pathfinding real-time strategy game crowd Emerson Game AI Pro
   category: research paper
+  arxiv_query: (all:"flow field" OR all:flowfield OR all:continuum) AND (all:pathfinding OR all:RTS OR
+    all:navigation)
 - cluster: rts-influence-maps
   query: influence maps potential fields real-time strategy game micro arxiv
   category: research paper
+  arxiv_query: (all:"influence map" OR all:"influence maps") AND (all:RTS OR all:game OR all:AI)
 - cluster: game-navmesh-dynamic
   query: navigation mesh dynamic obstacles video game pathfinding arxiv OR acm
   category: research paper
+  arxiv_query: (all:navmesh OR all:"navigation mesh") AND (all:dynamic OR all:game OR all:pathfinding)
 - cluster: lockstep-deterministic
   query: deterministic lockstep networked game simulation arxiv
   category: research paper
+  arxiv_query: (all:lockstep OR all:deterministic) AND (all:multiplayer OR all:simulation OR all:RTS)
 queries:
 - cluster: godot-rts
   query: '"Godot 4" RTS OR "real-time strategy" OR grid building OR isometric tutorial'
   category: news
 - cluster: stronghold-castle-sim
-  query: Stronghold castle simulation OR medieval city builder OR siege game design
-    GDC
+  query: Stronghold castle simulation OR medieval city builder OR siege game design GDC
   category: news
 - cluster: agent-game-dev
-  query: LLM agent game development Claude Code Cursor Godot MCP multi-agent shipped
-    indie
+  query: LLM agent game development Claude Code Cursor Godot MCP multi-agent shipped indie
   category: news
 - cluster: llm-npc-game
   query: LLM NPC dialogue game design guardrails on-device SLM GDC 2025
@@ -60,8 +69,7 @@ monokern_pipeline:
   - yt-dlp
   - inbox_pdf
   - web_url
-  ingest_hook: After weekly digest, one NotebookLM pass on top ROADMAP topic (engine
-    eval or slice spec)
+  ingest_hook: After weekly digest, one NotebookLM pass on top ROADMAP topic (engine eval or slice spec)
 social:
   manual_pass:
   - tool: opencli-reader

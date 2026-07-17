@@ -111,6 +111,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged + archived (2026-07-14; VRExplorer Phase-0 NO-GO + 4 rejects)
 - [x] Inbox arXiv batch triaged + archived (2026-07-15; 5 rejects/re-drops + Brickworks watch)
 - [x] Inbox arXiv batch triaged + archived (2026-07-16; CoFL-S flow-field shelf + 4 arXiv-API rejects)
+- [x] Inbox arXiv batch triaged + archived (2026-07-17; 5 rejects — 2 re-drops + ConFlow/robot/evo-game)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

@@ -182,6 +182,17 @@ def _extract_own_metadata_section(text: str) -> str:
     return fm + "\n" + rc
 
 
+def _extract_arxiv_index_text(text: str, path: Path) -> str:
+    """arXiv ID scan text — include reject-batch Narrative triage tables."""
+    own = _extract_own_metadata_section(text)
+    if "inbox-arxiv-reject-batch" not in path.name:
+        return own
+    m = re.search(r"^## Narrative\s*\n(.*?)(?=^##\s|\Z)", text, re.MULTILINE | re.DOTALL)
+    if m:
+        return own + "\n" + m.group(1)
+    return own
+
+
 def build_wiki_index():
     """Walk wiki/sources/ and collect dup-match keys into one structure."""
     idx = {
@@ -201,8 +212,9 @@ def build_wiki_index():
         # Raw-Concept fields
         location = extract_field(text, "Location")
         # Own-metadata section: frontmatter + Raw Concept only (NOT cross-refs in body)
+        # Reject-batch Narrative tables are included for arXiv IDs only (triaged set).
         own = _extract_own_metadata_section(text)
-        for m in ARXIV_RE.finditer(own):
+        for m in ARXIV_RE.finditer(_extract_arxiv_index_text(text, md)):
             idx["arxiv"][m.group(1)].append(rel)
         for m in DOI_RE.finditer(own):
             idx["doi"][m.group(1)].append(rel)

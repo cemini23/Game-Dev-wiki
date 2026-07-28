@@ -42,9 +42,11 @@ paper_queries:
 - cluster: lockstep-deterministic
   query: deterministic lockstep networked game simulation arxiv
   category: research paper
-  # Bare "deterministic"/"simulation" pulled quantum, UAS, and HF-stats false positives (2026-07-20).
-  arxiv_query: (all:lockstep OR all:"rollback netcode" OR all:"deterministic lockstep") AND (all:game OR
-    all:multiplayer OR all:RTS OR all:networking)
+  # Bare "deterministic"/"simulation" pulled quantum, UAS, HF-stats (2026-07-20).
+  # "lockstep" + loose game/networking still matched neuromorphic lockstep-SIMD (2026-07-28).
+  arxiv_query: (all:lockstep OR all:"rollback netcode" OR all:"deterministic lockstep") AND
+    (all:multiplayer OR all:RTS OR all:netcode OR all:"video game" OR all:"game networking") ANDNOT
+    (all:SIMD OR all:neuromorphic OR all:GPU)
 queries:
 - cluster: godot-rts
   query: '"Godot 4" RTS OR "real-time strategy" OR grid building OR isometric tutorial'

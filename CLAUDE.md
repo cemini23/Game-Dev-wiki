@@ -43,7 +43,8 @@ Laptop-first workspace. Raw sources archive to **`cemini-egress-fi:/opt/cemini-b
 Staging:
 - `briefs/` — milestone specs, slice briefs (gitignored)
 - `research to be indexed/` — transient drop zone (gitignored)
-- `LESSONS.md`, `ROADMAP.md`, `hot.md` (gitignored)
+- `LESSONS.md`, `ROADMAP.md` — tracked (meta-lessons + active workstreams)
+- `hot.md` — session scratch (gitignored)
 
 ## Folder layout
 

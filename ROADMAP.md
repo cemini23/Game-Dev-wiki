@@ -6,7 +6,7 @@ Active workstreams, open decisions, and done log.
 
 ## Vision
 
-Build a **playable castle-sim vertical slice** (Stronghold-inspired, 2D isometric, solo + optional friends) over a multi-year hobby timeline. This wiki holds **research + design + agent harness**; code lands in a separate repo when Phase 0 completes.
+Build a **playable castle-sim vertical slice** (Stronghold 2–inspired, **Fork B: Godot 3D**, solo + optional friends) over a multi-year hobby timeline. This wiki holds **research + design + agent harness**; Phase 0 research is complete — code lives in the separate `castle-sim` repo.
 
 ## Active workstreams
 
@@ -128,7 +128,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 
 | ID | Question | Default if no answer |
 |----|----------|---------------------|
-| D1 | 2D isometric vs simplified 3D | **2D isometric** (Stronghold 1 vibe, lower art cost) |
+| D1 | 2D isometric vs simplified 3D | Superseded by **D4** — Fork B Godot 3D locked 2026-06-13 |
 | D2 | Real-time MP vs hot-seat/LAN first | **Hot-seat / solo** until slice playable |
 | D3 | `castle-sim` repo public? | **Private** until vertical slice demo |
 | D4 | SH2 clone presentation fork | **Fork B — Godot 3D** (2026-06-13). Spike: @concepts/godot-3d-sh2-architect-spike-plan.md |

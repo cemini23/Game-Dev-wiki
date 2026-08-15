@@ -29,8 +29,10 @@ paper_queries:
   query: flow field pathfinding real-time strategy game crowd Emerson Game AI Pro
   category: research paper
   # Bare "continuum"/"navigation" pulled medical robots + drone vision (2026-07-22).
+  # UAV/urban CFD "flow fields" pulled air-mobility flight planning (2026-08-15).
   arxiv_query: (all:"flow field" OR all:flowfield OR all:"flow fields" OR all:"integration field") AND
-    (all:pathfinding OR all:RTS OR all:game OR all:crowd OR all:Emerson)
+    (all:pathfinding OR all:RTS OR all:game OR all:crowd OR all:Emerson) ANDNOT
+    (all:UAV OR all:drone OR all:aerial OR all:"air mobility" OR all:"flight planning" OR all:flight-planning)
 - cluster: rts-influence-maps
   query: influence maps potential fields real-time strategy game micro arxiv
   category: research paper

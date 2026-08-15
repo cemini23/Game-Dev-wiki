@@ -119,6 +119,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv reject batch triaged + archived (2026-07-22; 2 flow-field false positives; query tightened)
 - [x] Empty digests noted (2026-07-23…27; 0 PDFs each)
 - [x] Inbox arXiv reject batch triaged + archived (2026-07-28; neuromorphic lockstep-SIMD false positive; query tightened)
+- [x] Inbox arXiv reject batch triaged + archived (2026-08-15; UAV wind flow-field false positive + empty 07-29…08-11)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

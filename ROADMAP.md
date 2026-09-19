@@ -121,6 +121,10 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv reject batch triaged + archived (2026-07-28; neuromorphic lockstep-SIMD false positive; query tightened)
 - [x] Inbox arXiv reject batch triaged + archived (2026-08-15; UAV wind flow-field false positive + empty 07-29…08-11)
 - [x] Brief backfill (2026-08-15): SEO K141 SGM MAPD + castle-sim GameEngineBench taxonomy → wiki sources; Tycho + lockstep index gaps closed
+- [x] Inbox arXiv batch triaged + archived (2026-09-19; 1 NPC memory ingest + 3 rejects; UAV LAWN false positive)
+- [x] Phase-1 W2 MCP policy wired in agent-harness + hi-godot-ai entity
+- [x] Commit daily sweep backlog 2026-08-16…2026-09-18
+- [x] Index Twin + VibeWorlding CCC-primary stubs (2026-08-17/18)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

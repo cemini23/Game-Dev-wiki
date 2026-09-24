@@ -53,7 +53,7 @@ paper_queries:
   query: research paper LLM agent game development playtesting NPC
   category: research paper
   arxiv_query: '(all:LLM OR all:"language model") AND (all:game OR all:playtest OR all:NPC) AND (all:agent OR all:NPC OR all:procedural) ANDNOT
-    (all:UAV OR all:UAS OR all:drone OR all:aerial OR all:LAWN OR all:unmanned OR all:"aerial system")'
+    (all:UAV OR all:UAS OR all:drone OR all:aerial OR all:LAWN OR all:unmanned OR all:"aerial system" OR cat:astro-ph.*)'
 queries:
 - cluster: godot-rts
   query: '"Godot 4" RTS OR "real-time strategy" OR grid building OR isometric tutorial'

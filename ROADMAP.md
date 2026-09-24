@@ -125,6 +125,10 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-1 W2 MCP policy wired in agent-harness + hi-godot-ai entity
 - [x] Commit daily sweep backlog 2026-08-16…2026-09-18
 - [x] Index Twin + VibeWorlding CCC-primary stubs (2026-08-17/18)
+- [x] Inbox arXiv batch triaged + archived (2026-09-24; 6 agent-eval/NPC ingests + 5 rejects; astro-ph mis-route)
+- [x] Phase-0 GameLogicBench (no LICENSE) + CraftBench-UE (MIT extract-only)
+- [x] Phase-1 eval bench ladder + guardrails SGC/epistemic pacing
+- [x] Commit daily sweeps 2026-09-19…2026-09-24
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 

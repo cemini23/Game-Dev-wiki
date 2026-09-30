@@ -129,6 +129,9 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-0 GameLogicBench (no LICENSE) + CraftBench-UE (MIT extract-only)
 - [x] Phase-1 eval bench ladder + guardrails SGC/epistemic pacing
 - [x] Commit daily sweeps 2026-09-19…2026-09-24
+- [x] Inbox arXiv batch triaged (2026-09-30; 8 ingests — BT↔FSM, PUBG Ally, skills, GlyphBench, SAGE, identity factionalism, EnterpriseBench, AnthroDial; 2 rejects)
+- [x] Phase-0 FirmBench (Apache-2.0 → CONDITIONAL-GO) + CodeHack (MIT → CONDITIONAL-GO); SAGE/FSM2BT/PartoPrey NO-GO clone (no licence)
+- [x] Phase-1 wires H1 (skill abstraction) + H2 (withhold model identity) → agent-harness concept
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
@@ -146,6 +149,14 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 ---
 
 ## Done log
+
+### 2026-09-30 — W4 arXiv batch (agent harness + game AI + NPC)
+
+- 10 inbox PDFs triaged: 8 ingests, 2 rejects → `@sources/inbox-arxiv-reject-batch-2026-09-30.md`
+- New sources: BT↔FSM conversion, PUBG Ally (full paper), abstraction ladder, GlyphBench, SAGE, prompted identity, EnterpriseBench, AnthroDial
+- New entities: `firmbench` (CONDITIONAL-GO Apache-2.0), `codehack` (CONDITIONAL-GO MIT)
+- Phase-1 wires: H1 skill abstraction, H2 withhold model identity → `@concepts/agent-harness-castle-project.md`
+- Brief: `briefs/research/agent-harness-transform-rules-2026-09-30.md`
 
 ### 2026-06-13 — W4 devlog + GDC + harness workflow research
 

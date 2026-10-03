@@ -132,6 +132,8 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged (2026-09-30; 8 ingests — BT↔FSM, PUBG Ally, skills, GlyphBench, SAGE, identity factionalism, EnterpriseBench, AnthroDial; 2 rejects)
 - [x] Phase-0 FirmBench (Apache-2.0 → CONDITIONAL-GO) + CodeHack (MIT → CONDITIONAL-GO); SAGE/FSM2BT/PartoPrey NO-GO clone (no licence)
 - [x] Phase-1 wires H1 (skill abstraction) + H2 (withhold model identity) → agent-harness concept
+- [x] Inbox arXiv batch triaged (2026-10-03; 2 ingests — Cogentic proof harness, audit-rule verification; 1 reject — inference auctions)
+- [x] Phase-1 wires H3 (verified ledger promotion) + H4 (report-independent audit floor) → agent-harness concept
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
@@ -149,6 +151,13 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 ---
 
 ## Done log
+
+### 2026-10-03 — W4 arXiv batch (multi-agent harness + verification design)
+
+- 3 inbox PDFs triaged: 2 ingests, 1 reject → `@sources/inbox-arxiv-reject-batch-2026-10-03.md`
+- New sources: Cogentic (orchestrator/prover/verifier + verified ledger), audit-rule verification design
+- Phase-1 wires: H3 verified-ledger promotion, H4 report-independent audit floor → `@concepts/agent-harness-castle-project.md`
+- Brief: `briefs/research/agent-harness-transform-rules-2026-09-30.md` extended
 
 ### 2026-09-30 — W4 arXiv batch (agent harness + game AI + NPC)
 

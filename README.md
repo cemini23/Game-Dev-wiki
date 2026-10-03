@@ -74,7 +74,7 @@ git clone https://github.com/cemini23/Game-Dev-wiki.git
 ## Related
 
 - Methodology newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
-- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
+- X: [@Cemini23](https://x.com/Cemini23)
 - Agent harness patterns: `@ccc-wiki/entities/tools/claude-code-game-studios.md`
 - Federation hub: [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
 - Tooling: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet)
@@ -100,7 +100,6 @@ Voluntary tips fund open research and tooling. **Donation-only addresses** — n
 | **Outlier Weekly** (methodology newsletter) | [outlierweekly.substack.com](https://outlierweekly.substack.com) |
 | **Atto** (genealogy kit) | [youratto.com](https://youratto.com) |
 | **GuruWatcher** (newsletter price watches → Discord) | [guruwatcher.com](https://guruwatcher.com) |
-| YouTube | [@Cemini23](https://www.youtube.com/@Cemini23) |
 
 ## License
 

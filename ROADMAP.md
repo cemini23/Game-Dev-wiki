@@ -135,6 +135,9 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged (2026-10-03; 2 ingests — Cogentic proof harness, audit-rule verification; 1 reject — inference auctions)
 - [x] Phase-1 wires H3 (verified ledger promotion) + H4 (report-independent audit floor) → agent-harness concept
 - [x] Deep research: Minecraft modding ecosystem, both editions (2026-10-05) — 4 concept pages, 3 entities, 2 sources; Blockbench Phase-0 CONDITIONAL-GO
+- [x] Inbox arXiv batch triaged (2026-10-05; 2 ingests — QUEEN chess explainer, default-following; 1 reject — German RAG) + Phase-1 rules H5/H6
+- [x] Cross-wiki routed briefs landed (2026-10-05; 4 briefs — VLM narration, AnyTalk, Hydra-0, Modern C++), all `wont_wire`
+- [x] Basgiath brief written: `dragon-rider-map/briefs/2026-10-05_java-port-and-tooling.md` (Bedrock improvements + Java port path)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
@@ -152,6 +155,14 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 ---
 
 ## Done log
+
+### 2026-10-05 — arXiv batch + cross-wiki briefs + Basgiath port brief
+
+- 3 inbox PDFs triaged: 2 ingests, 1 reject → `@sources/inbox-arxiv-reject-batch-2026-10-05.md`
+- Ingested QUEEN (expert-plus-explainer chess model) and prompt-framing default deference
+- Phase-1 wires **H5** (do not pre-fill a neutral choice) + **H6** (expert decides, LM explains)
+- Landed 4 previously-unrouted cross-wiki briefs → `@sources/cross-wiki-routed-briefs-2026-10-05.md`
+- Basgiath: wrote `dragon-rider-map/briefs/2026-10-05_java-port-and-tooling.md` — Bedrock improvements, editing ergonomics, and the Bedrock→Java port path
 
 ### 2026-10-05 — Minecraft modding ecosystem deep research
 

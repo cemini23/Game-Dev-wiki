@@ -134,6 +134,7 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Phase-1 wires H1 (skill abstraction) + H2 (withhold model identity) → agent-harness concept
 - [x] Inbox arXiv batch triaged (2026-10-03; 2 ingests — Cogentic proof harness, audit-rule verification; 1 reject — inference auctions)
 - [x] Phase-1 wires H3 (verified ledger promotion) + H4 (report-independent audit floor) → agent-harness concept
+- [x] Deep research: Minecraft modding ecosystem, both editions (2026-10-05) — 4 concept pages, 3 entities, 2 sources; Blockbench Phase-0 CONDITIONAL-GO
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
@@ -151,6 +152,15 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 ---
 
 ## Done log
+
+### 2026-10-05 — Minecraft modding ecosystem deep research
+
+- Operator-directed deep research, both editions; 4 parallel research agents + opencli social pass (YouTube, X, Reddit)
+- Concepts: `minecraft-modding-ecosystem`, `minecraft-bedrock-addons-scripting`, `minecraft-data-driven-content-patterns`, `minecraft-agent-harness-shelf`
+- Entities: `blockbench` (GPL-3.0, CONDITIONAL-GO art), `mineflayer` (MIT, STEAL-FROM), `minecraft-agent-mcp-shelf`
+- Sources: `minecraft-modding-deep-research-2026-10-05`, `minecraft-social-scan-2026-10-05`
+- Verified the Java deobfuscation break (2025-10-31 Fabric post) — no pre-26.1 mod survives without recompilation
+- Harness concept extended with Minecraft agent literature; art pipeline gets the 3D/Blockbench lane
 
 ### 2026-10-03 — W4 arXiv batch (multi-agent harness + verification design)
 

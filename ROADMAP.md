@@ -138,6 +138,9 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged (2026-10-05; 2 ingests — QUEEN chess explainer, default-following; 1 reject — German RAG) + Phase-1 rules H5/H6
 - [x] Cross-wiki routed briefs landed (2026-10-05; 4 briefs — VLM narration, AnyTalk, Hydra-0, Modern C++), all `wont_wire`
 - [x] Basgiath brief written: `dragon-rider-map/briefs/2026-10-05_java-port-and-tooling.md` (Bedrock improvements + Java port path)
+- [x] Inbox arXiv batch triaged (2026-10-07; 6 ingests, 0 rejects — MASBench, Learn2Play, Mafia comms, SpeedrunBench, social-deduction RFT, WorldSolver)
+- [x] Phase-1 wires H7 (keep the raw record), H8 (re-validate inherited notes), H9 (measure coordination cost), H10 (visual-fidelity check)
+- [x] Incoming briefs landed (2026-10-05/06; K282 level editors, K283 Bedrock extracts, SPHERE VR) — MASBench Phase-0 MIT CONDITIONAL-GO
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
@@ -155,6 +158,14 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 ---
 
 ## Done log
+
+### 2026-10-07 — Agent-harness arXiv batch + incoming briefs
+
+- 6 inbox PDFs triaged, **all ingested** (first all-ingest batch): MASBench, Learn2Play, Mafia communication, SpeedrunBench, social-deduction RFT, WorldSolver
+- Phase-1 wires: **H7** complete records beat summaries; **H8** inherited notes can harm (counterweight to H3); **H9** measure coordination cost; **H10** visual-fidelity check
+- Eval bench ladder extended: MASBench, Learn2Play, SpeedrunBench, WorldSolver
+- 3 incoming briefs landed: `@sources/k282-level-editors-tile-tooling-2026-10-05.md`, `@sources/k283-bedrock-addon-extracts-2026-10-06.md`, `@sources/arxiv-2610.02023-sphere-vr-scene-routing-2026-10-06.md`
+- Phase-0: MASBench **MIT** → CONDITIONAL-GO (STEAL-FROM in practice)
 
 ### 2026-10-05 — arXiv batch + cross-wiki briefs + Basgiath port brief
 

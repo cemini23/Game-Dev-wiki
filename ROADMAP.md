@@ -141,6 +141,9 @@ Cross-link `@image-gen-wiki` for isometric tile/sprites; `@concepts/art-pipeline
 - [x] Inbox arXiv batch triaged (2026-10-07; 6 ingests, 0 rejects — MASBench, Learn2Play, Mafia comms, SpeedrunBench, social-deduction RFT, WorldSolver)
 - [x] Phase-1 wires H7 (keep the raw record), H8 (re-validate inherited notes), H9 (measure coordination cost), H10 (visual-fidelity check)
 - [x] Incoming briefs landed (2026-10-05/06; K282 level editors, K283 Bedrock extracts, SPHERE VR) — MASBench Phase-0 MIT CONDITIONAL-GO
+- [x] Inbox arXiv batch triaged (2026-10-09; 4 ingests, 0 rejects — verifier evolution, confidence game, system switch, MEMENTO 3)
+- [x] Phase-1 verification doctrine H11–H14 (anchored verifier set, self-report distrust, escalate on sensitivity, replay gate)
+- [x] Incoming briefs landed (2026-10-07/08; K284/K285 Basgiath clip tooling — two NOASSERTION licence flags)
 - [ ] Route isometric tile workflow to `@image-gen-wiki` when art milestone starts
 - [ ] Deploy cross-wiki stubs (SerpentAI, Airtest, UCP2, GameDev-Resources) to sibling wikis
 
